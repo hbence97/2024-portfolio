@@ -1,0 +1,23 @@
+<template>
+  <page-header />
+  <about-me />
+  <skills />
+</template>
+
+<script>
+export default {
+  data() {
+    return {};
+  },
+};
+</script>
+
+<style>
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+</style>
