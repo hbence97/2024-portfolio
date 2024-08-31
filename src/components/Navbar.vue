@@ -54,7 +54,6 @@ li {
 a {
   border-radius: 10px;
   color: black;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 500;
   font-size: 24px;
   font-style: normal;

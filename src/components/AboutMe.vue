@@ -1,5 +1,5 @@
 <template>
-  <div class="about-me-section">
+  <section class="about-me-section">
     <div class="about-me-container-texts">
       <h2>About Me</h2>
       <p>
@@ -24,7 +24,7 @@
         <i>Bence</i>
       </p>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -59,7 +59,6 @@ h2 {
 p,
 span,
 i {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, sans-serif;
   max-width: 1000px;
   font-size: 27px;
 }

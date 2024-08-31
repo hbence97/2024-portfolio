@@ -1,5 +1,5 @@
 <template>
-  <div class="skills-section">
+  <section class="skills-section">
     <h2>Skills / Experiences</h2>
     <div class="skills-section-container">
       <div class="skills-container">
@@ -59,7 +59,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -71,11 +71,6 @@ export default {
 </script>
 
 <style scoped>
-h3,
-span {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, sans-serif;
-}
-
 .skills-section {
   background-image: url("../assets/duplo25.jpg");
   background-attachment: fixed;
