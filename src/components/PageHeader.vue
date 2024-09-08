@@ -7,11 +7,11 @@
       <div class="header-button-container">
         <div @click="heroButtonClicked" @mouseover="hoverOverButton" @mouseleave="stopHovering" class="header-button-linkedin">
           <a href="#">Let's connect</a>
-          <img class="header-button-linkedin-logo" ref="linkedInLogo" v-show="showLinkedInLogo" src="../assets/linkedin-logo.png" alt="linkedIn logo">
+          <img class="header-button-linkedin-logo" v-show="showLinkedInLogo" src="../assets/linkedin-logo.png" alt="LinkedIn logo">
         </div>
         <div @click="heroButtonClicked" @mouseover="hoverOverButton" @mouseleave="stopHovering" class="header-button-github">
           <a href="#">My projects</a>
-          <img class="header-button-github-logo" ref="gitHubLogo" v-show="showGitHubLogo" src="../assets/github-logo.svg" alt="linkedIn logo">
+          <img class="header-button-github-logo" v-show="showGitHubLogo" src="../assets/github-logo.png" alt="GitHub logo">
         </div>
       </div>
     </div>
@@ -162,5 +162,6 @@ export default {
   height: 50px;
   right: 0;
   transition: all 0.5s;
+  border-radius: 50%;
 }
 </style>
