@@ -13,6 +13,7 @@
         <li><a href="#">Home</a></li>
         <li><a href="#">About me</a></li>
         <li><a href="#">Skills</a></li>
+        <li><a href="#">Projects</a></li>
       </ul>
     </nav>
   </div>
@@ -87,7 +88,8 @@ a {
 }
 
 li:first-child,
-li:nth-child(2) {
+li:nth-child(2),
+li:nth-child(3) {
   border-bottom: 2px solid #cbcfd9;
 }
 

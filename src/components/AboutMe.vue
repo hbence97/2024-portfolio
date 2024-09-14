@@ -15,10 +15,10 @@
         happy!
         <a href="https://github.com/hbence97" target="_blank"><i>(Check out my github page)</i></a>
         <br /><br />
-        If you like what you see, or want to have a talk, make sure you
-        <span class="linkedin">
-          <a href="https://www.linkedin.com/in/bence-hegyes-881101177/" target="_blank">contact me on LinkedIn</a>
-        </span>. Thanks for being here! <br /><br />
+        At the moment I'm open to frontend opportunities
+        <span class="highlight">full-time</span>,
+        <span class="highlight">part-time</span> or as a
+        <span class="highlight">contractor</span>. <br /><br />
         Best regards!
         <br /><br />
         <i>Bence</i>
@@ -77,7 +77,7 @@ i {
   font-weight: 600;
 }
 
-.about-me-container-texts .linkedin a {
+.about-me-container-texts .highlight {
   text-decoration-line: underline;
   text-decoration-color: #dddfe5;
   text-decoration-thickness: 4px;

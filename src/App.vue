@@ -2,6 +2,7 @@
   <page-header />
   <about-me />
   <skills />
+  <projects />
 </template>
 
 <script>

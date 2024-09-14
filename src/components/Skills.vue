@@ -77,6 +77,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  border-bottom: 2px solid grey;
 }
 
 .skills-section h2 {
