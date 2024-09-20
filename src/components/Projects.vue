@@ -69,8 +69,8 @@ img {
 }
 
 .projects-section {
-  height: 100vh;
   padding-top: 4rem;
+  border-bottom: 2px solid grey;
 }
 
 .projects-section h2 {

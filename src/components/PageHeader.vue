@@ -164,4 +164,10 @@ export default {
   transition: all 0.5s;
   border-radius: 50%;
 }
+
+@media (max-width: 450px) {
+  .header-section {
+    width: 450px;
+  }
+}
 </style>

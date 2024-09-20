@@ -15,10 +15,10 @@
         happy!
         <a href="https://github.com/hbence97" target="_blank"><i>(Check out my github page)</i></a>
         <br /><br />
-        At the moment I'm open to frontend opportunities
-        <span class="highlight">full-time</span>,
-        <span class="highlight">part-time</span> or as a
-        <span class="highlight">contractor</span>. <br /><br />
+        At the moment I'm open to frontend opportunities as a
+        <span class="highlight">contractor</span>,
+        <span class="highlight">full-time</span> or as a
+        <span class="highlight">part-time</span> employee. <br /><br />
         Best regards!
         <br /><br />
         <i>Bence</i>
