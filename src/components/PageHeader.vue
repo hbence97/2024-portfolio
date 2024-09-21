@@ -2,7 +2,8 @@
   <section class="header-section">
     <navbar />
     <div class="header-text-container">
-      <h1 class="header-h1">Hegyes Bence</h1>
+      <h1 class="header-h1-desktop">Hegyes Bence</h1>
+      <h1 class="header-h1-mobile">Hegyes <span>Bence</span></h1>
       <h2 class="header-h2">Frontend Developer</h2>
       <div class="header-button-container">
         <div @click="heroButtonClicked" @mouseover="hoverOverButton" @mouseleave="stopHovering" class="header-button-linkedin">
@@ -72,12 +73,16 @@ export default {
   margin-left: 5rem;
 }
 
-.header-h1 {
+.header-h1-desktop {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 160px;
   margin-top: 10rem;
+}
+
+.header-h1-mobile {
+  display: none;
 }
 
 .header-h2 {
@@ -125,6 +130,7 @@ export default {
 
 .header-button-container .header-button-github {
   width: 170px;
+  margin-left: 2rem;
 }
 
 .header-button-container .header-button-linkedin:hover {
@@ -145,10 +151,6 @@ export default {
   pointer-events: none;
 }
 
-.header-button-github {
-  margin-left: 2rem;
-}
-
 .header-button-linkedin-logo {
   position: absolute;
   height: 50px;
@@ -166,8 +168,64 @@ export default {
 }
 
 @media (max-width: 450px) {
-  .header-section {
-    width: 450px;
+  .header-text-container {
+    display: flex;
+    flex-direction: column;
+    height: 622px;
+    margin-left: 0;
+  }
+
+  .header-h1-desktop {
+    display: none;
+  }
+
+  .header-h1-mobile {
+    display: block;
+    margin-left: 2rem;
+    font-size: 75px;
+    margin-top: 4rem;
+    z-index: 1;
+  }
+
+  .header-h1-mobile span {
+    margin-left: 5rem;
+  }
+
+  .header-h2 {
+    font-size: 28px;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    z-index: 1;
+  }
+
+  .header-hero-image {
+    top: -22rem;
+    left: -12.5rem;
+    height: 500px;
+    border: 1.8px solid #f5f5f5;
+    border-radius: 20px;
+  }
+
+  .header-button-container {
+    margin-top: 6rem;
+    margin-left: 9rem;
+    flex-direction: column;
+  }
+
+  .header-button-container div {
+    height: 55px;
+    font-size: 22px;
+  }
+
+  .header-button-container .header-button-linkedin {
+    width: 180px;
+    margin-bottom: 4rem;
+    margin-left: 3rem;
+  }
+
+  .header-button-container .header-button-github {
+    width: 160px;
+    margin-left: 3rem;
   }
 }
 </style>

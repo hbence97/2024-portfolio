@@ -21,10 +21,4 @@ export default {
   box-sizing: border-box;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, sans-serif;
 }
-
-@media (max-width: 450px) {
-  #app {
-    width: 100vh;
-  }
-}
 </style>

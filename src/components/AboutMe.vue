@@ -56,13 +56,6 @@ h2 {
   letter-spacing: 12px;
 }
 
-p,
-span,
-i {
-  max-width: 1000px;
-  font-size: 27px;
-}
-
 .paragraph-welcome {
   font-size: 48px;
   font-style: italic;
@@ -71,6 +64,13 @@ i {
   background-size: 48px 64px;
   background-position: 2px 19px;
   animation: moveUnderline 72s linear infinite;
+}
+
+p,
+span,
+i {
+  max-width: 1000px;
+  font-size: 27px;
 }
 
 .about-me-container-texts .four-years-experience {
@@ -92,6 +92,35 @@ i {
 
   to {
     background-position: 2000px 19px;
+  }
+}
+
+@media (max-width: 450px) {
+  .about-me-section {
+    padding-top: 2rem;
+  }
+
+  .about-me-container-texts {
+    gap: 2rem;
+  }
+
+  h2 {
+    font-size: 70px;
+  }
+
+  .paragraph-welcome {
+    font-size: 30px;
+    animation: none;
+  }
+
+  p,
+  span,
+  i {
+    font-size: 21px;
+  }
+
+  p {
+    max-width: 380px;
   }
 }
 </style>
