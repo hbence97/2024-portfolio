@@ -90,6 +90,10 @@ img {
   margin-bottom: 3rem;
 }
 
+.projects-container {
+  padding: 15px;
+}
+
 h3:after,
 .cards .card figcaption,
 .cards .card:after {
@@ -110,10 +114,6 @@ h3,
 h3 strong,
 h3 span {
   vertical-align: middle;
-}
-
-.projects-container {
-  padding: 15px;
 }
 
 h3 {
@@ -211,5 +211,41 @@ h3:after {
   transform: rotate(25deg);
   top: -40%;
   opacity: 0.15;
+}
+
+@media (max-width: 450px) {
+  .projects-section {
+    padding-top: 2rem;
+  }
+
+  .projects-section h2 {
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 12px;
+    padding-top: 1rem;
+  }
+
+  .projects-section-small-text {
+    letter-spacing: 3px;
+    font-size: 24px;
+    margin-bottom: 2rem;
+  }
+
+  .projects-container {
+    padding: 15px;
+    margin-bottom: 2rem;
+  }
+
+  .cards {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .cards .card {
+    height: 270px;
+    width: 270px;
+  }
+
 }
 </style>
