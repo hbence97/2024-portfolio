@@ -80,4 +80,29 @@ export default {
   border: none;
   cursor: pointer;
 }
+
+@media (max-width: 450px) {
+  .popup-text {
+    font-size: 42px;
+  }
+
+  .popup-button-container {
+    margin-top: 1rem;
+  }
+
+  .popup-button {
+    height: 60px;
+    width: 200px;
+  }
+
+  .popup-button-text {
+    font-size: 26px;
+  }
+
+  .close-button {
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 28px;
+  }
+}
 </style>

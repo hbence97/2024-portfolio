@@ -50,4 +50,16 @@ export default {
   letter-spacing: 12px;
   padding-top: 1rem;
 }
+
+@media (max-width: 450px) {
+  .contact-me-section {
+    padding-top: 2rem;
+  }
+
+  .contact-me-section h2 {
+    font-size: 60px;
+    letter-spacing: 12px;
+    padding-top: 1rem;
+  }
+}
 </style>

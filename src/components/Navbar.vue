@@ -144,4 +144,15 @@ li:has(> a:hover) a {
 .hamburger-menu.active .bottom {
   stroke-dashoffset: -138px;
 }
+
+@media (max-width: 450px) {
+  svg {
+    top: 0;
+    right: -0.4rem;
+  }
+
+  .hamburger-menu {
+    width: 70px;
+  }
+}
 </style>
