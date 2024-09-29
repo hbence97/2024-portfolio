@@ -31,7 +31,7 @@ export default {
 <style scoped>
 .popup-container {
   width: 100%;
-  height: 16rem;
+  height: 17rem;
   top: 0;
   background: white;
   border-bottom: 2px solid grey;

@@ -8,6 +8,10 @@
         <strong>Games <span>( 3 )</span></strong>
       </h3>
       <div class="cards">
+        <figure class="card">
+          <img src="../assets/coming_soon.png" alt="Coming soon cover" />
+        </figure>
+
         <a href="https://hbence97.github.io/SmallJavascriptProjects/Tetris/" target="_blank">
           <figure class="card">
             <img src="../assets/tetris.png" alt="Tetris cover" />
