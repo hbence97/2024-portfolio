@@ -10,10 +10,11 @@
           d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
       </svg>
       <ul v-show="menuOpen" class="nav-list">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About me</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Projects</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about-me">About me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </div>
@@ -89,7 +90,8 @@ a {
 
 li:first-child,
 li:nth-child(2),
-li:nth-child(3) {
+li:nth-child(3),
+li:nth-child(4) {
   border-bottom: 2px solid #cbcfd9;
 }
 
@@ -97,10 +99,6 @@ li:has(> a:hover) {
   background: #cbcfd9;
   transition: background 0.35s;
 }
-
-li:has(> a:hover):first-child {}
-
-li:has(> a:hover):last-child {}
 
 li:has(> a:hover) a {
   color: black;

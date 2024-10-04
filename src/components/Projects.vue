@@ -1,5 +1,5 @@
 <template>
-  <section class="projects-section">
+  <section id="projects" class="projects-section">
     <h2 class="projects-section-title">Projects</h2>
     <p class="projects-section-small-text">(Some of my favorites)</p>
     <!-- Games -->
@@ -250,6 +250,5 @@ h3:after {
     height: 270px;
     width: 270px;
   }
-
 }
 </style>

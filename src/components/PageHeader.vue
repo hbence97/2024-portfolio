@@ -1,5 +1,5 @@
 <template>
-  <section class="header-section">
+  <section id="home" class="header-section">
     <navbar />
     <div class="header-text-container">
       <h1 class="header-h1-desktop">Hegyes Bence</h1>

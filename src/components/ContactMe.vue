@@ -1,5 +1,5 @@
 <template>
-  <section class="contact-me-section">
+  <section id="contact" class="contact-me-section">
     <popup v-show="bottomOfPage" class="popup-component" />
     <h2>Contact Me</h2>
     <div class="contact-me-container">
