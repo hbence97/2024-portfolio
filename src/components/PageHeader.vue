@@ -167,6 +167,55 @@ export default {
   border-radius: 50%;
 }
 
+/* 2560 x 1440 */
+@media (min-width: 2550px) {
+  .header-text-container {
+    margin-left: 10rem;
+  }
+
+  .header-h1-desktop {
+    font-size: 240px;
+  }
+
+  .header-h2 {
+    font-size: 90px;
+    margin-left: 20rem;
+  }
+
+  .header-hero-image {
+    height: 1000px;
+  }
+
+  .header-button-container div {
+    height: 110px;
+    font-size: 36px;
+  }
+
+  .header-button-container .header-button-linkedin {
+    width: 275px;
+  }
+
+  .header-button-container .header-button-github {
+    width: 245px;
+    margin-left: 3rem;
+  }
+
+  .header-button-container .header-button-linkedin:hover {
+    width: 345px;
+  }
+
+  .header-button-container .header-button-github:hover {
+    width: 315px;
+  }
+
+  .header-button-linkedin-logo,
+  .header-button-github-logo {
+    height: 70px;
+    right: 4px;
+  }
+}
+
+/* mobile */
 @media (max-width: 450px) {
   .header-text-container {
     display: flex;

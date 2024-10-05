@@ -196,8 +196,6 @@ export default {
 
 .experiences-container {
   text-align: center;
-  font-size: 28px;
-  font-weight: 600;
 }
 
 .experiences-container__title {
@@ -231,6 +229,68 @@ export default {
   height: 120px;
 }
 
+/* 2560 x 1440 */
+@media (min-width: 2550px) {
+  .skills-section h2 {
+    font-size: 140px;
+    padding-top: 3rem;
+  }
+
+  .skills-section-container {
+    gap: 8rem;
+  }
+
+  .skills-container {
+    gap: 12px 0px;
+  }
+
+  .skills-container span {
+    font-size: 38px;
+  }
+
+  .img-javascript,
+  .img-typescript,
+  .img-vue,
+  .img-react,
+  .img-html,
+  .img-css,
+  .img-git,
+  .img-jenkins {
+    height: 100px;
+  }
+
+  .experiences-container__title {
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 3rem;
+  }
+
+  .experiences-container img {
+    margin-bottom: 1.5rem;
+  }
+
+  .experiences-container .spar-img {
+    height: 84px;
+  }
+
+  .experiences-container .vodafone-img {
+    height: 130px;
+  }
+
+  .experiences-container .dxc-img {
+    height: 150px;
+  }
+
+  .experiences-container .goodevent-img {
+    height: 160px;
+  }
+
+  .experiences-container .goodwill-img {
+    height: 140px;
+  }
+}
+
+/* mobile */
 @media (max-width: 450px) {
   .skills-section {
     height: 200vh;

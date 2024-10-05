@@ -59,7 +59,7 @@ svg {
   right: 0;
 }
 
-ul {
+.nav-list {
   position: fixed;
   top: 2rem;
   right: 4rem;
@@ -143,6 +143,25 @@ li:has(> a:hover) a {
   stroke-dashoffset: -138px;
 }
 
+/* 2560 x 1440 */
+@media (min-width: 2550px) {
+  .hamburger-menu {
+    width: 100px;
+  }
+
+  .nav-list {
+    top: 2.5rem;
+    right: 5rem;
+    width: 220px;
+  }
+
+  a {
+    font-size: 26px;
+  }
+
+}
+
+/* mobile */
 @media (max-width: 450px) {
   svg {
     top: 0;

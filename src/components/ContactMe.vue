@@ -127,6 +127,46 @@ export default {
   color: black;
 }
 
+/* 2560 x 1440 */
+@media (min-width: 2550px) {
+  .contact-me-section h2 {
+    font-size: 120px;
+    margin-bottom: 4rem;
+  }
+
+  .contact-me-text {
+    font-size: 36px;
+  }
+
+  .cards {
+    gap: 4rem;
+    margin-top: 1.5rem;
+  }
+
+  .card {
+    width: 360px;
+    height: 470px;
+  }
+
+  .email-logo {
+    height: 100px;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+
+  .linkedin-logo {
+    height: 100px;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+
+  .email-text,
+  .linkedin-text {
+    font-size: 24px;
+  }
+}
+
+/* mobile */
 @media (max-width: 450px) {
   .contact-me-section {
     padding-top: 2rem;

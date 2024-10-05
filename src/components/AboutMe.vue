@@ -95,6 +95,34 @@ i {
   }
 }
 
+/* 2560 x 1440 */
+@media (min-width: 2550px) {
+  .about-me-section {
+    padding-top: 8rem;
+  }
+
+  .about-me-container-texts {
+    gap: 4rem;
+  }
+
+  h2 {
+    font-size: 140px;
+  }
+
+  .paragraph-welcome {
+    font-size: 56px;
+    background-size: 48px 80px;
+  }
+
+  p,
+  span,
+  i {
+    max-width: 1600px;
+    font-size: 34px;
+  }
+}
+
+/* mobile */
 @media (max-width: 450px) {
   .about-me-section {
     padding-top: 2rem;

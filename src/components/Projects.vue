@@ -217,6 +217,22 @@ h3:after {
   opacity: 0.15;
 }
 
+/* 2560 x 1440 */
+@media (min-width: 2550px) {
+  .projects-section {
+    height: 100vh;
+  }
+
+  .projects-section h2 {
+    font-size: 140px;
+  }
+
+  .projects-section-small-text {
+    font-size: 38px;
+  }
+}
+
+/* mobile */
 @media (max-width: 450px) {
   .projects-section {
     padding-top: 2rem;
