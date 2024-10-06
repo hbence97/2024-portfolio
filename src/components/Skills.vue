@@ -293,7 +293,7 @@ export default {
 /* mobile */
 @media (max-width: 450px) {
   .skills-section {
-    height: 200vh;
+    height: 225vh;
   }
 
   .skills-section h2 {

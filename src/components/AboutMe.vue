@@ -129,7 +129,7 @@ i {
   }
 
   .about-me-container-texts {
-    gap: 2rem;
+    gap: 0.5rem;
   }
 
   h2 {
@@ -144,7 +144,7 @@ i {
   p,
   span,
   i {
-    font-size: 21px;
+    font-size: 20px;
   }
 
   p {

@@ -169,6 +169,7 @@ export default {
 /* mobile */
 @media (max-width: 450px) {
   .contact-me-section {
+    height: 153vh;
     padding-top: 2rem;
   }
 
@@ -176,6 +177,17 @@ export default {
     font-size: 60px;
     letter-spacing: 12px;
     padding-top: 1rem;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 3rem;
+  }
+
+  .card {
+    height: 380px;
   }
 }
 </style>

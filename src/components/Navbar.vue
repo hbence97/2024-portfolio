@@ -158,7 +158,6 @@ li:has(> a:hover) a {
   a {
     font-size: 26px;
   }
-
 }
 
 /* mobile */

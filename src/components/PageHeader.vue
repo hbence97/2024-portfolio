@@ -232,7 +232,7 @@ export default {
     display: block;
     margin-left: 2rem;
     font-size: 75px;
-    margin-top: 4rem;
+    margin-top: 2.5rem;
     z-index: 1;
   }
 
@@ -242,13 +242,13 @@ export default {
 
   .header-h2 {
     font-size: 28px;
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
     margin-left: 3rem;
     z-index: 1;
   }
 
   .header-hero-image {
-    top: -22rem;
+    top: -26rem;
     left: -12.5rem;
     height: 500px;
     border: 1.8px solid #f5f5f5;
