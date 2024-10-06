@@ -215,6 +215,33 @@ export default {
   }
 }
 
+/* 15.6 inch laptop */
+@media (max-width: 1370px) {
+  .header-text-container {
+    margin-left: 3rem;
+  }
+
+  .header-h1-desktop {
+    font-size: 150px;
+    margin-top: 9rem;
+  }
+
+  .header-h2 {
+    font-size: 55px;
+    margin-left: 13rem;
+  }
+
+  .header-button-container {
+    margin-top: 11rem;
+  }
+
+  .header-hero-image {
+    top: -33rem;
+    right: 2rem;
+    height: 600px;
+  }
+}
+
 /* mobile */
 @media (max-width: 450px) {
   .header-text-container {

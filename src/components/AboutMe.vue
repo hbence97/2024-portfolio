@@ -122,6 +122,29 @@ i {
   }
 }
 
+/* 15.6 inch laptop */
+@media (max-width: 1370px) {
+  .about-me-section {
+    padding-top: 3rem;
+  }
+
+  .about-me-container-texts {
+    gap: 1rem;
+  }
+
+  .paragraph-welcome {
+    font-size: 42px;
+    background-size: 48px 53px;
+  }
+
+  p,
+  span,
+  i {
+    max-width: 1000px;
+    font-size: 26px;
+  }
+}
+
 /* mobile */
 @media (max-width: 450px) {
   .about-me-section {

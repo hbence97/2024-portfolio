@@ -166,6 +166,13 @@ export default {
   }
 }
 
+/* 15.6 inch laptop */
+@media (max-width: 1370px) {
+  .contact-me-section {
+    padding-top: 2.5rem;
+  }
+}
+
 /* mobile */
 @media (max-width: 450px) {
   .contact-me-section {

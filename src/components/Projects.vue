@@ -232,6 +232,14 @@ h3:after {
   }
 }
 
+/* 15.6 inch laptop */
+@media (max-width: 1370px) {
+  .projects-section {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+}
+
 /* mobile */
 @media (max-width: 450px) {
   .projects-section {
