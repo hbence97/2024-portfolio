@@ -17,7 +17,7 @@ export default {
   },
   methods: {
     popupButtonClicked() {
-      const resumeLink = require("../assets/me.png");
+      const resumeLink = require("../assets/resume.png");
       window.open(resumeLink);
       this.$refs.popupContainer.style.display = "none";
     },
