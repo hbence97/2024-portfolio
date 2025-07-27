@@ -6,18 +6,42 @@
       <h1 class="header-h1-mobile">Hegyes <span>Bence</span></h1>
       <h2 class="header-h2">Frontend Developer</h2>
       <div class="header-button-container">
-        <div @click="heroButtonClicked" @mouseover="hoverOverButton" @mouseleave="stopHovering" class="header-button-linkedin">
+        <div
+          @click="heroButtonClicked"
+          @mouseover="hoverOverButton"
+          @mouseleave="stopHovering"
+          class="header-button-linkedin"
+        >
           <a href="#">Let's connect</a>
-          <img class="header-button-linkedin-logo" v-show="showLinkedInLogo" src="../assets/linkedin-logo.png" alt="LinkedIn logo">
+          <img
+            class="header-button-linkedin-logo"
+            v-show="showLinkedInLogo"
+            src="../assets/linkedin-logo.png"
+            alt="LinkedIn logo"
+          />
         </div>
-        <div @click="heroButtonClicked" @mouseover="hoverOverButton" @mouseleave="stopHovering" class="header-button-github">
+        <div
+          @click="heroButtonClicked"
+          @mouseover="hoverOverButton"
+          @mouseleave="stopHovering"
+          class="header-button-github"
+        >
           <a href="#">My projects</a>
-          <img class="header-button-github-logo" v-show="showGitHubLogo" src="../assets/github-logo.png" alt="GitHub logo">
+          <img
+            class="header-button-github-logo"
+            v-show="showGitHubLogo"
+            src="../assets/github-logo.png"
+            alt="GitHub logo"
+          />
         </div>
       </div>
     </div>
     <div class="header-hero-image-container">
-      <img class="header-hero-image" src="../assets/me.png" alt="Hegyes Bence image" />
+      <img
+        class="header-hero-image"
+        src="../assets/me.png"
+        alt="Hegyes Bence image"
+      />
     </div>
   </section>
 </template>
@@ -35,12 +59,15 @@ export default {
   methods: {
     heroButtonClicked(e) {
       const gitHubLink = "https://github.com/hbence97";
-      const linkedInLink = "https://www.linkedin.com/in/bence-hegyes-881101177/"
-      e.target.innerText === "My projects" ? window.open(gitHubLink) : window.open(linkedInLink);
+      const linkedInLink =
+        "https://www.linkedin.com/in/bence-hegyes-881101177/";
+      e.target.innerText === "My projects"
+        ? window.open(gitHubLink)
+        : window.open(linkedInLink);
     },
     hoverOverButton(e) {
       if (e.target.innerText === "Let's connect") {
-        this.showLinkedInLogo = true; 
+        this.showLinkedInLogo = true;
       } else if (e.target.innerText === "My projects") {
         this.showGitHubLogo = true;
       }
@@ -51,7 +78,7 @@ export default {
       } else if (e.target.innerText === "My projects") {
         this.showGitHubLogo = false;
       }
-    }
+    },
   },
 };
 </script>
@@ -117,7 +144,7 @@ export default {
   height: 70px;
   background: #cbcfd9;
   font-size: 24px;
-  box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.30);
+  box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   transform: skewX(-15deg);
   position: relative;
@@ -215,6 +242,31 @@ export default {
   }
 }
 
+@media (max-width: 1650px) {
+  .header-text-container {
+    margin-left: 4rem;
+  }
+
+  .header-h1-desktop {
+    font-size: 150px;
+  }
+
+  .header-h2 {
+    font-size: 55px;
+  }
+
+  .header-hero-image {
+    right: 6rem;
+  }
+}
+
+@media (max-width: 1520px) {
+  .header-hero-image {
+    right: 4rem;
+  }
+}
+
+
 /* 15.6 inch laptop */
 @media (max-width: 1370px) {
   .header-text-container {
@@ -242,7 +294,54 @@ export default {
   }
 }
 
-/* mobile */
+@media (max-width: 1280px) {
+  .header-h1-desktop {
+    font-size: 130px;
+  }
+
+  .header-h2 {
+    font-size: 47px;
+  }
+
+  .header-hero-image {
+    height: 550px;
+  }
+
+  .header-button-container {
+    margin-top: 11.5rem;
+  }
+ }
+
+@media (max-width: 1180px) {
+  .header-h1-desktop {
+    font-size: 120px;
+  }
+
+  .header-h2 {
+    font-size: 42px;
+    margin-top: 1rem;
+    margin-left: 11rem;
+  }
+
+  .header-hero-image {
+    height: 520px;
+  }
+
+  .header-button-container .header-button-linkedin {
+    width: 195px;
+  }
+
+  .header-button-container .header-button-github {
+    width: 175px;
+  }
+
+  .header-button-container {
+    margin-top: 10rem;
+  }
+
+}
+
+/* Mobiles bigger than 380px width */
 @media (max-width: 450px) {
   .header-text-container {
     display: flex;
@@ -302,6 +401,25 @@ export default {
   .header-button-container .header-button-github {
     width: 160px;
     margin-left: 3rem;
+  }
+}
+
+/* Mobiles smaller than 380px width */
+@media (max-width: 380px) {
+  .header-hero-image {
+    top: -26rem;
+    left: -10.9rem;
+    height: 450px;
+  }
+
+  .header-button-container .header-button-linkedin {
+    width: 165px;
+    font-size: 21px;
+  }
+
+  .header-button-container .header-button-github {
+    width: 165px;
+    font-size: 23px;
   }
 }
 </style>

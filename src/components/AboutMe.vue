@@ -145,14 +145,14 @@ i {
   }
 }
 
-/* mobile */
+/* Mobiles bigger than 380px width */
 @media (max-width: 450px) {
   .about-me-section {
-    padding-top: 2rem;
+    padding-top: 4rem;
   }
 
   .about-me-container-texts {
-    gap: 0.5rem;
+    gap: 3rem;
   }
 
   h2 {
@@ -172,6 +172,26 @@ i {
 
   p {
     max-width: 380px;
+  }
+}
+
+/* Mobiles smaller than 380px width */
+@media (max-width: 380px) {
+  .about-me-section {
+    padding-top: 1rem;
+  }
+
+  .about-me-container-texts {
+    gap: 0.1rem;
+  }
+
+  .paragraph-welcome {
+    font-size: 28px;
+  }
+
+  p {
+    max-width: 360px;
+    font-size: 18px;
   }
 }
 </style>

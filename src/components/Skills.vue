@@ -3,41 +3,59 @@
     <h2>Skills / Experiences</h2>
     <div class="skills-section-container">
       <div class="skills-container">
-        <img class="img-javascript"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+        <img
+          class="img-javascript"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+        />
         <span class="span-javascript">JavaScript</span>
 
         <span class="span-typescript">TypeScript</span>
-        <img class="img-typescript"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
+        <img
+          class="img-typescript"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+        />
 
-        <img class="img-vue"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original-wordmark.svg" />
+        <img
+          class="img-vue"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original-wordmark.svg"
+        />
         <span class="span-vue">Vue.js</span>
 
         <span class="span-react">React</span>
-        <img class="img-react"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
+        <img
+          class="img-react"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
+        />
 
-        <img class="img-html"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
+        <img
+          class="img-html"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
+        />
         <span class="span-html">HTML</span>
 
         <span class="span-css">CSS</span>
-        <img class="img-css"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
+        <img
+          class="img-css"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+        />
 
-        <img class="img-git"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg" />
+        <img
+          class="img-git"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg"
+        />
         <span class="span-git">Git</span>
 
         <span class="span-jenkins">Jenkins</span>
-        <img class="img-jenkins"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" />
+        <img
+          class="img-jenkins"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg"
+        />
       </div>
 
       <div class="experiences-container">
-        <p class="experiences-container__title">Companies that I have worked for</p>
+        <p class="experiences-container__title">
+          Companies that I have worked for
+        </p>
         <div class="spar-container">
           <img class="spar-img" src="../assets/spar.png" alt="" />
         </div>
@@ -344,14 +362,52 @@ export default {
   .experiences-container .goodwill-img {
     height: 100px;
   }
-
-
 }
 
-/* mobile */
+/* Tablet */
+@media (max-width: 1025px) {
+  .skills-section h2 {
+    font-size: 75px;
+    padding-top: 2rem;
+  }
+
+  .skills-section-container {
+    gap: 1px;
+  }
+
+  .skills-container {
+    gap: 14px 3px;
+  }
+
+  .skills-container span {
+    font-size: 38px;
+  }
+
+  .img-javascript,
+  .img-typescript,
+  .img-vue,
+  .img-react,
+  .img-html,
+  .img-css,
+  .img-git,
+  .img-jenkins {
+    height: 80px;
+  }
+
+  .experiences-container__title {
+    font-size: 36px;
+    margin-bottom: 2rem;
+  }
+
+  .experiences-container img {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* Mobiles bigger than 380px width */
 @media (max-width: 450px) {
   .skills-section {
-    height: 225vh;
+    height: 200vh;
   }
 
   .skills-section h2 {
@@ -413,6 +469,13 @@ export default {
 
   .experiences-container .goodwill-img {
     height: 114px;
+  }
+}
+
+/* Mobiles smaller than 380px width */
+@media (max-width: 380px) {
+  .skills-section {
+    height: 250vh;
   }
 }
 </style>

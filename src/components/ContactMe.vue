@@ -173,7 +173,39 @@ export default {
   }
 }
 
-/* mobile */
+/* Tablet */
+@media (max-width: 1025px) {
+  .contact-me-section {
+    padding-top: 8rem;
+  }
+
+  .contact-me-section h2 {
+    font-size: 120px;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact-me-text {
+    font-size: 40px;
+  }
+
+  .cards {
+    gap: 4rem;
+    margin-top: 6.5rem;
+  }
+
+  .card {
+    width: 370px;
+    height: 480px;
+  }
+
+  .email-text,
+  .linkedin-text {
+    font-size: 26px;
+  }
+}
+
+/* Mobiles bigger than 380px width */
 @media (max-width: 450px) {
   .contact-me-section {
     height: 153vh;
@@ -195,6 +227,13 @@ export default {
 
   .card {
     height: 380px;
+  }
+}
+
+/* Mobiles smaller than 380px width */
+@media (max-width: 380px) {
+  .contact-me-section {
+    height: 170vh;
   }
 }
 </style>

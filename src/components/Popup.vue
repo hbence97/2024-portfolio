@@ -81,6 +81,13 @@ export default {
   cursor: pointer;
 }
 
+/* Tablet */
+@media (max-width: 1025px) {
+  .popup-container {
+    height: 18rem;
+  }
+}
+
 @media (max-width: 450px) {
   .popup-text {
     font-size: 42px;
